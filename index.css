@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;700&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 30%;
+    margin: .5rem auto;
+    min-width: 400px;
+    max-width: 400px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: .5rem 0;
+}
+
+/* typography */
+p {
+    font-weight: 300;
+}
+
+/* utility */
+
+.border-round {
+    border-radius: 50%;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+/* header section */
+.header-container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-img {
+    width: 15%;
+}
+
+.logo {
+    height: 90%;
+    width: 30%;
+}
+
+.user-avatar {
+    width: 10%;
+    height: 90%;
+    padding-top: .5rem;
+}
+
+.divider {
+    border: 1px solid lightgray;
+    margin-top: -.1rem;
+}
+
+/* main */
+/* header of main */
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    /* align-items: center; */
+}
+
+.author-name,
+.author-location {
+    /* border: 1px solid black; */
+    align-items: center;
+    display: block;
+    line-height: 1.1rem;
+    margin: 0;
+}
+
+.author-location-container {
+    margin-top: .2rem;
+}
+
+.author-comment-container {
+    margin-left: .5rem;
+    /* border: 1px solid red; */
+}
+
+
+.main-container {
+    /* border: 1px solid pink; */
+}
+
+.post-container {
+    width: 100%;
+}
+
+.post-img {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.post {
+    display: flex;
+}
+
+.post-icons {
+    display: flex;
+    align-items: center;
+}
+
+
+.icon,
+.post,
+.post-likes {
+    padding-left: .6rem;
+}
+
+.icon {
+    width: 8%;
+    padding: .6rem;
+    transition: transform .2s;
+}
+
+.icon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.icon-post-heart {}
+
+.icon-post-comment {}
+
+.icon-post-airplane {}
